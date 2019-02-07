@@ -62,6 +62,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "dev": "npm run develop",
+    "test": "echo 'No tests'",
     "serve": "gatsby serve",
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
