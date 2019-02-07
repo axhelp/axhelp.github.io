@@ -1,0 +1,63 @@
+{
+  "id": "table-of-contents",
+  "chapters": [
+    {
+      "title": "1. Среда разработки",
+      "chapters": [
+        {
+          "title": "1.1 Загрузка и установка",
+          "entries": [
+            {
+              "entry": "./1_preparation/1_1_pcworx.md"
+            },
+            {
+              "entry": "./1_preparation/1_2_plcnext.md"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "1.1.1 Sub-subchapter",
+              "entries": [
+                {
+                  "entry": "./lesson_two.md"
+                },
+                {
+                  "entry": "./lesson_three.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.2 Subchapter",
+          "entries": [
+            {
+              "entry": "./lesson_four.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Main Chapter",
+      "chapters": [
+        {
+          "title": "2.1 Subchapter",
+          "entries": [
+            {
+              "entry": "./lesson_five.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Main Chapter",
+      "entries": [
+        {
+          "entry": "./lesson_six.md"
+        }
+      ]
+    }
+  ]
+}
