@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 class PostListing extends React.Component {
-  getPostList() {
+  getPostList () {
     const postList = []
     this.props.postEdges.forEach(postEdge => {
       postList.push({
@@ -17,16 +17,16 @@ class PostListing extends React.Component {
     })
     return postList
   }
-  render() {
+  render () {
     const postList = this.getPostList()
     return (
       <div>
         {/* Your post list here. */
-        postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))}
+          postList.map(post => (
+            <Link to={post.path} key={post.title}>
+              <h1>{post.title}</h1>
+            </Link>
+          ))}
       </div>
     )
   }

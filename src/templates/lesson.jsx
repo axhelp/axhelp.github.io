@@ -8,7 +8,7 @@ import config from '../../data/SiteConfig'
 import TableOfContents from '../components/Layout/TableOfContents'
 
 export default class LessonTemplate extends React.Component {
-  render() {
+  render () {
     const { slug } = this.props.pathContext
     const postNode = this.props.data.postBySlug
     const post = postNode.frontmatter
@@ -21,7 +21,7 @@ export default class LessonTemplate extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>{`${post.title} | ${config.siteTitle}`}</title>
+          <title>{`${ post.title } | ${ config.siteTitle }`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <BodyGrid>
@@ -64,18 +64,18 @@ const BodyContainer = styled.div`
   overflow: scroll;
   justify-self: center;
   width: 100%;
-  padding: ${props => props.theme.sitePadding};
+  padding: ${ props => props.theme.sitePadding };
   @media screen and (max-width: 600px) {
     order: 2;
   }
 
   & > div {
-    max-width: ${props => props.theme.contentWidthLaptop};
+    max-width: ${ props => props.theme.contentWidthLaptop };
     margin: auto;
   }
 
   & > h1 {
-    color: ${props => props.theme.accentDark};
+    color: ${ props => props.theme.accentDark };
   }
 `
 
@@ -91,7 +91,7 @@ const HeaderContainer = styled.div`
 const ToCContainer = styled.div`
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  background: ${props => props.theme.lightGrey};
+  background: ${ props => props.theme.lightGrey };
   overflow: scroll;
   @media screen and (max-width: 600px) {
     order: 3;

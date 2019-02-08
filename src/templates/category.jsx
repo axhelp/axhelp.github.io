@@ -4,13 +4,13 @@ import PostListing from '../components/PostListing/PostListing'
 import config from '../../data/SiteConfig'
 
 export default class CategoryTemplate extends React.Component {
-  render() {
+  render () {
     const category = this.props.pathContext.category
     const postEdges = this.props.data.allMarkdownRemark.edges
     return (
       <div className="category-container">
         <Helmet
-          title={`Posts in category "${category}" | ${config.siteTitle}`}
+          title={`Posts in category "${ category }" | ${ config.siteTitle }`}
         />
         <PostListing postEdges={postEdges} />
       </div>

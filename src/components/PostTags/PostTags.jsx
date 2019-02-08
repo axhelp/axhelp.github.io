@@ -3,7 +3,7 @@ import _ from 'lodash'
 import Link from 'gatsby-link'
 
 class PostTags extends Component {
-  render() {
+  render () {
     const { tags } = this.props
     return (
       <div className="post-tag-container">
@@ -12,7 +12,7 @@ class PostTags extends Component {
             <Link
               key={tag}
               style={{ textDecoration: 'none' }}
-              to={`/tags/${_.kebabCase(tag)}`}
+              to={`/tags/${ _.kebabCase(tag) }`}
             >
               <button>{tag}</button>
             </Link>

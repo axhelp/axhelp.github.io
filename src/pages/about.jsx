@@ -6,11 +6,11 @@ import MainHeader from '../components/Layout/Header'
 import About from '../components/About/About'
 
 const BodyContainer = styled.div`
-  padding: ${props => props.theme.sitePadding};
+  padding: ${ props => props.theme.sitePadding };
 `
 
 class AboutPage extends React.Component {
-  render() {
+  render () {
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle} />

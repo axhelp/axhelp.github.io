@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Navigation from './Navigation'
 
 class MainHeader extends React.Component {
-  render() {
+  render () {
     return (
       <SiteContainer>
         <Navigation />
@@ -16,7 +16,7 @@ const SiteContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: ${props => props.theme.background};
+  background: ${ props => props.theme.background };
   padding: 25px;
 `
 

@@ -7,13 +7,13 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: ${props => props.theme.background};
+  background: ${ props => props.theme.background };
 
   .nav-link {
     font-size: 1.6rem;
     margin-right: 10px;
     font-weight: 200;
-    color: ${props => props.theme.button};
+    color: ${ props => props.theme.button };
   }
 
   @media screen and (max-width: 600px) {
@@ -32,7 +32,7 @@ const NavContainer = styled.div`
 `
 
 class Navigation extends React.Component {
-  render() {
+  render () {
     return (
       <NavContainer>
         <section>

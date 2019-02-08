@@ -1,31 +1,15 @@
-import React from "react";
-import Helmet from "react-helmet";
-import styled from "styled-components";
+import React from 'react'
+import Helmet from 'react-helmet'
+import styled from 'styled-components'
 
-import SEO from "../components/SEO";
-import config from "../../data/SiteConfig";
-import CtaButton from "../components/CtaButton";
-import Navigation from "../components/Layout/Navigation";
-import { FaGithubAlt } from "react-icons/lib/fa";
-
-
-const UserIcon = styled.a`
-  margin-left: 25px;
-  color: ${props => props.theme.button};
-  &:hover {
-    color: rgba(0, 0, 0, 0.2);
-    border-bottom: none;
-  }
-`;
-
-const iconStyle = {
-  width: "20px",
-  height: "20px"
-};
+import SEO from '../components/SEO'
+import config from '../../data/SiteConfig'
+import CtaButton from '../components/CtaButton'
+import Navigation from '../components/Layout/Navigation'
 
 class Index extends React.Component {
-  render() {
-    const allSEOMarkdown = this.props.data.allMarkdown.edges;
+  render () {
+    const allSEOMarkdown = this.props.data.allMarkdown.edges
 
     return (
       <div className="index-container">
@@ -38,58 +22,59 @@ class Index extends React.Component {
               <img src={config.siteLogo} width="150px" alt=""/>
               <h1>{config.siteTitle}</h1>
               <h4>{config.siteDescription}</h4>
-              <CtaButton to={"/pc-worx"}>Документация</CtaButton>
+              <CtaButton to={'/pc-worx'}>Документация</CtaButton>
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
             <h2>Присоединяйтесь на Github</h2>
             <p>
-              Примите участие в разработке и улучшении документации. Ваш опыт будет полезен участникам сообщества.{" "}
+              Примите участие в разработке и улучшении документации.
+              Ваш опыт будет полезен участникам сообщества.{' '}
             </p>
-            <CtaButton to={"/github"}>
+            <CtaButton to={'/github'}>
               Узнайте как
             </CtaButton>
 
             <div className="contributors">
               <p>
-                Создано{" "}
+                Создано{' '}
                 <a href="https://github.com/axhelp">
                   AX Help Community
-                </a>{" "}
+                </a>{' '}
               </p>
             </div>
           </BodyContainer>
         </main>
       </div>
-    );
+    )
   }
 }
 
-export default Index;
+export default Index
 
 const IndexHeadContainer = styled.div`
-  background: ${props => props.theme.background};
-  padding: ${props => props.theme.sitePadding};
+  background: ${ props => props.theme.background };
+  padding: ${ props => props.theme.sitePadding };
   text-align: center;
-`;
+`
 
 const Hero = styled.div`
   padding: 50px 0;
   & > h1 {
     font-weight: 600;
   }
-`;
+`
 
 const BodyContainer = styled.div`
-  padding: ${props => props.theme.sitePadding};
-  max-width: ${props => props.theme.contentWidthLaptop};
+  padding: ${ props => props.theme.sitePadding };
+  max-width: ${ props => props.theme.contentWidthLaptop };
   margin: 0 auto;
 
   .contributors {
     max-width: 400px;
     margin: 100px auto 0;
   }
-`;
+`
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
@@ -136,4 +121,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

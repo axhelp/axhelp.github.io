@@ -12,19 +12,19 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
     ) {
-      slug = `/${_.kebabCase(node.frontmatter.slug)}`
+      slug = `/${ _.kebabCase(node.frontmatter.slug) }`
     }
     if (
       Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
     ) {
-      slug = `/${_.kebabCase(node.frontmatter.title)}`
+      slug = `/${ _.kebabCase(node.frontmatter.title) }`
     } else if (parsedFilePath.name !== 'index' && parsedFilePath.dir !== '') {
-      slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`
+      slug = `/${ parsedFilePath.dir }/${ parsedFilePath.name }/`
     } else if (parsedFilePath.dir === '') {
-      slug = `/${parsedFilePath.name}/`
+      slug = `/${ parsedFilePath.name }/`
     } else {
-      slug = `/${parsedFilePath.dir}/`
+      slug = `/${ parsedFilePath.dir }/`
     }
     createNodeField({ node, name: 'slug', value: slug })
   }
@@ -99,7 +99,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         const categoryList = Array.from(categorySet)
         categoryList.forEach(category => {
           createPage({
-            path: `/categories/${_.kebabCase(category)}/`,
+            path: `/categories/${ _.kebabCase(category) }/`,
             component: categoryPage,
             context: {
               category

@@ -13,7 +13,7 @@ const Container = styled.div`
 
 const UserIcon = styled.a`
   margin-left: 25px;
-  color: ${props => props.theme.button};
+  color: ${ props => props.theme.button };
   &:hover {
     color: rgba(0, 0, 0, 0.2);
     border-bottom: none;
@@ -26,7 +26,7 @@ const iconStyle = {
 }
 
 class UserLinks extends Component {
-  render() {
+  render () {
     return (
       <Container className="user-links">
         <UserIcon href="https://github.com/axhelp">

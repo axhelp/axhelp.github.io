@@ -4,7 +4,7 @@ import config from '../../../data/SiteConfig'
 import './SocialLinks.css'
 
 class SocialLinks extends Component {
-  render() {
+  render () {
     const { postNode, postPath, mobile } = this.props
     const post = postNode.frontmatter
     const url = config.siteUrl + config.pathPrefix + postPath

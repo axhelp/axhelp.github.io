@@ -11,7 +11,7 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`,
+      image_url: `${ config.siteUrl + pathPrefix }/logos/logo-512.png`,
       author: config.userName,
       copyright: config.copyright
     }
@@ -29,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: `${__dirname}/content/`
+        path: `${ __dirname }/content/`
       }
     },
     {
@@ -96,7 +96,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup(ref) {
+        setup (ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
           ret.generator = 'GatsbyJS Material Starter'
@@ -121,7 +121,7 @@ module.exports = {
       `,
         feeds: [
           {
-            serialize(ctx) {
+            serialize (ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
                 categories: edge.node.frontmatter.tags,

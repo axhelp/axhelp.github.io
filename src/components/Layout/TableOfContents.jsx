@@ -19,7 +19,7 @@ const Links = ({ entries }) => (
 const ChapterList = ({ chapters, entries, title, level = 0 }) => (
   <StyledChapterList>
     {title && (
-      <ChapterListItem key={`${title}${level}`}>
+      <ChapterListItem key={`${ title }${ level }`}>
         <ChapterTitle level={level}>{title}</ChapterTitle>
       </ChapterListItem>
     )}
@@ -27,7 +27,7 @@ const ChapterList = ({ chapters, entries, title, level = 0 }) => (
     <ChapterListItem>
       {chapters &&
         chapters.map((chapter, index) => (
-          <ChapterList {...chapter} level={level + 1} key={`${index}`} />
+          <ChapterList {...chapter} level={level + 1} key={`${ index }`} />
         ))}
     </ChapterListItem>
   </StyledChapterList>
@@ -42,7 +42,7 @@ const TableOfContents = ({ chapters }) => (
 export default TableOfContents
 
 const TOCWrapper = styled.div`
-  padding: ${props => props.theme.sitePadding};
+  padding: ${ props => props.theme.sitePadding };
   margin: 0;
 `
 
@@ -77,34 +77,34 @@ const EntryListItem = styled.li`
 `
 
 const ChapterTitle = styled.h5`
-  font-weight: ${({ level }) => {
+  font-weight: ${ ({ level }) => {
     switch (level % 3) {
-      case 1:
-        return '600'
-      case 2:
-        return '400'
-      default:
-        return '800'
+    case 1:
+      return '600'
+    case 2:
+      return '400'
+    default:
+      return '800'
     }
-  }};
-  font-size: ${({ level }) => {
+  } };
+  font-size: ${ ({ level }) => {
     switch (level % 3) {
-      case 1:
-        return '1.8rem'
-      case 2:
-        return '1.4rem'
-      default:
-        return '2.2rem'
+    case 1:
+      return '1.8rem'
+    case 2:
+      return '1.4rem'
+    default:
+      return '2.2rem'
     }
-  }};
-  color: ${({ level, theme }) => {
+  } };
+  color: ${ ({ level, theme }) => {
     switch (level % 3) {
-      case 1:
-        return 'black'
-      case 2:
-        return 'black'
-      default:
-        return 'black'
+    case 1:
+      return 'black'
+    case 2:
+      return 'black'
+    default:
+      return 'black'
     }
-  }};
+  } };
 `

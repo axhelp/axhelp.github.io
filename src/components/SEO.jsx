@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import config from '../../data/SiteConfig'
 
 class SEO extends Component {
-  render() {
+  render () {
     const { postNode, postPath, postSEO } = this.props
     let title
     let description

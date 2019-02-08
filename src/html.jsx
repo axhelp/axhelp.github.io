@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default class HTML extends React.Component {
-  render() {
+  render () {
     let css
     if (process.env.NODE_ENV === 'production') {
       css = (
