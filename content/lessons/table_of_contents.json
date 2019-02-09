@@ -24,7 +24,10 @@
       "chapters": [
         {
           "title": "2.1 Analog Technology",
-          "entries": [{ "entry": "./2-1-analog-technology/ib-il-ai-4-i.md" }]
+          "entries": [
+            { "entry": "./2-1-analog-technology/ib-il-ai-4-i.md" },
+            { "entry": "./2-1-analog-technology/ib-il-ai-4-u.md" }
+          ]
         }
       ]
     },
