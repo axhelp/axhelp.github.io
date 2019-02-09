@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://axhelp.ru/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://axhelp.ru/lesson-five</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://axhelp.ru/lesson-four</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://axhelp.ru/lesson-one-один</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/lesson-six</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://axhelp.ru/lesson-three</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://axhelp.ru/lesson-two</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/post-one</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/pc-worx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/pl-cnext-engineer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://axhelp.ru/ib-il-ai-4-i-pac</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axhelp.ru/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

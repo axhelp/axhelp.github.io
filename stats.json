@@ -1,32 +1,20 @@
 {
   "assetsByChunkName": {
     "path---pc-worx": [
-      "path---pc-worx-75db2a48635f4705ef50.js",
-      "path---pc-worx-75db2a48635f4705ef50.js.map"
+      "path---pc-worx-fc8025cc0d1ec734eadf.js",
+      "path---pc-worx-fc8025cc0d1ec734eadf.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
       "path----6611940bd40871b680a6.js.map"
     ],
-    "path---lesson-four": [
-      "path---lesson-four-806a6e971c21e9714611.js",
-      "path---lesson-four-806a6e971c21e9714611.js.map"
-    ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-08429ddcf58820abf3e4.js",
       "component---src-layouts-index-jsx-08429ddcf58820abf3e4.js.map"
     ],
-    "path---lesson-one-один": [
-      "path---lesson-one-один-7e1d57d9839fd91aa022.js",
-      "path---lesson-one-один-7e1d57d9839fd91aa022.js.map"
-    ],
     "path---categories-tech": [
       "path---categories-tech-d4c3d74574850abf5c1a.js",
       "path---categories-tech-d4c3d74574850abf5c1a.js.map"
-    ],
-    "path---lesson-five": [
-      "path---lesson-five-d7acdfc676173c3fed74.js",
-      "path---lesson-five-d7acdfc676173c3fed74.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -36,17 +24,17 @@
       "component---src-templates-lesson-jsx-701a886cc90fcc126cb8.js",
       "component---src-templates-lesson-jsx-701a886cc90fcc126cb8.js.map"
     ],
-    "path---lesson-two": [
-      "path---lesson-two-bf80b14abd15e78ed2b9.js",
-      "path---lesson-two-bf80b14abd15e78ed2b9.js.map"
-    ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js",
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js.map"
     ],
+    "path---ib-il-ai-4-i-pac": [
+      "path---ib-il-ai-4-i-pac-93ee61ae9b5fd856b93d.js",
+      "path---ib-il-ai-4-i-pac-93ee61ae9b5fd856b93d.js.map"
+    ],
     "path---index": [
-      "path---index-c23701b837562d6288cc.js",
-      "path---index-c23701b837562d6288cc.js.map"
+      "path---index-2d8c5ed8cc6cbe4a9d9e.js",
+      "path---index-2d8c5ed8cc6cbe4a9d9e.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-7062667c93e2a6a15510.js",
@@ -57,22 +45,18 @@
       "path---post-one-dad53c39885a0b412d9a.js.map"
     ],
     "path---lesson-six": [
-      "path---lesson-six-2afc79f9b25699b65754.js",
-      "path---lesson-six-2afc79f9b25699b65754.js.map"
+      "path---lesson-six-8456b9d100446a4f93cb.js",
+      "path---lesson-six-8456b9d100446a4f93cb.js.map"
     ],
     "commons": [
-      "commons-e223bd2c148133f4db3c.js",
+      "commons-b2ba6c66e2a86ba19824.js",
       "build-js-styles.css",
-      "commons-e223bd2c148133f4db3c.js.map",
+      "commons-b2ba6c66e2a86ba19824.js.map",
       "build-js-styles.css.map"
     ],
-    "path---lesson-three": [
-      "path---lesson-three-a34eb4101d698699bd24.js",
-      "path---lesson-three-a34eb4101d698699bd24.js.map"
-    ],
     "path---pl-cnext-engineer": [
-      "path---pl-cnext-engineer-8573678e0a4f714ed92e.js",
-      "path---pl-cnext-engineer-8573678e0a4f714ed92e.js.map"
+      "path---pl-cnext-engineer-be24e7f321b7f274ae54.js",
+      "path---pl-cnext-engineer-be24e7f321b7f274ae54.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
@@ -87,9 +71,9 @@
       "component---src-pages-index-jsx-96f4f3d74d7f5d097e9a.js.map"
     ],
     "app": [
-      "app-12e0bdfcf723f89ec24e.js",
+      "app-dd48f5d09ec5197327db.js",
       "build-js-styles.css",
-      "app-12e0bdfcf723f89ec24e.js.map",
+      "app-dd48f5d09ec5197327db.js.map",
       "build-js-styles.css.map"
     ],
     "path---about": [
