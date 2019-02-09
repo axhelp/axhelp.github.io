@@ -27,7 +27,7 @@ title: "IB IL AI 4/U-PAC"
 LWORD **~AI64** и **~AO 64** содержат те же данные, что и отдельные слова, но собраны в одну переменную (для обработки
 **библиотекой**)
 
-![IB IL AI 4/I-PAC Process Data](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/process-data.png?raw=true)
+![IB IL AI 4/U-PAC Process Data](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/process-data.png?raw=true)
 
 ## Параметризация каналов
 
@@ -38,7 +38,7 @@ LWORD **~AI64** и **~AO 64** содержат те же данные, что и
  
 и пределы измерения физической величины (входы **rHighLimit** и **rLowLimit**)
 
-![IB IL AI 4/I-PAC Parameters](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/parameters.png?raw=true)
+![IB IL AI 4/U-PAC Parameters](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/parameters.png?raw=true)
 
 
 ## Коммуникация с модулем
@@ -47,11 +47,11 @@ LWORD **~AI64** и **~AO 64** содержат те же данные, что и
 модулем - **IL_AI_4_UI_Com**. Для общения с модулем блок необходимо передать пеерменные **arrProcIn** и **arrProcOut**, 
 привязанные к Process Data модуля.
 
-![IB IL AI 4/I-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/process-data-assignment.png?raw=true)
+![IB IL AI 4/U-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/process-data-assignment.png?raw=true)
 
 Вход **bSelect** позволяет указать, какие каналы активны.
 
-![IB IL AI 4/I-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/com.png?raw=true)
+![IB IL AI 4/U-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/com.png?raw=true)
 
 ## Вывод значений и диагностика
 
@@ -59,4 +59,4 @@ LWORD **~AI64** и **~AO 64** содержат те же данные, что и
 структуру udtStatus.  
 Преобразованное значение канала содержится на выходе **rCurrentValue**.
 
-![IB IL AI 4/I-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/diag.png?raw=true)
+![IB IL AI 4/U-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/diag.png?raw=true)
