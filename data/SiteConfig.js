@@ -47,8 +47,5 @@ module.exports = {
   // copyright: 'Copyright © 2017. Advanced User', // Copyright string for the
   // footer of the website and RSS feed.
   themeColor: '#0098a1', // Used for setting manifest and progress theme colors.
-  backgroundColor: '#e0e0e0', // Used for setting manifest background color.
-  // TODO: Move this literally anywhere better.
-  // Used to generate the Table Of Contents. Index 0 should be blank.
-  toCChapters: ['', 'Chapter 1', 'Chapter 2']
+  backgroundColor: '#e0e0e0' // Used for setting manifest background color.
 }
