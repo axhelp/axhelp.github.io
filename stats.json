@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---pc-worx": [
-      "path---pc-worx-fc8025cc0d1ec734eadf.js",
-      "path---pc-worx-fc8025cc0d1ec734eadf.js.map"
+      "path---pc-worx-b60d96da5912c6388513.js",
+      "path---pc-worx-b60d96da5912c6388513.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -24,17 +24,21 @@
       "component---src-templates-lesson-jsx-701a886cc90fcc126cb8.js",
       "component---src-templates-lesson-jsx-701a886cc90fcc126cb8.js.map"
     ],
+    "path---ib-il-ai-4-u-pac": [
+      "path---ib-il-ai-4-u-pac-b082856af8321c000501.js",
+      "path---ib-il-ai-4-u-pac-b082856af8321c000501.js.map"
+    ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js",
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js.map"
     ],
     "path---ib-il-ai-4-i-pac": [
-      "path---ib-il-ai-4-i-pac-93ee61ae9b5fd856b93d.js",
-      "path---ib-il-ai-4-i-pac-93ee61ae9b5fd856b93d.js.map"
+      "path---ib-il-ai-4-i-pac-65f77d81b022854b267d.js",
+      "path---ib-il-ai-4-i-pac-65f77d81b022854b267d.js.map"
     ],
     "path---index": [
-      "path---index-2d8c5ed8cc6cbe4a9d9e.js",
-      "path---index-2d8c5ed8cc6cbe4a9d9e.js.map"
+      "path---index-071237149aa06853053d.js",
+      "path---index-071237149aa06853053d.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-7062667c93e2a6a15510.js",
@@ -45,8 +49,8 @@
       "path---post-one-dad53c39885a0b412d9a.js.map"
     ],
     "path---lesson-six": [
-      "path---lesson-six-8456b9d100446a4f93cb.js",
-      "path---lesson-six-8456b9d100446a4f93cb.js.map"
+      "path---lesson-six-b19ef208b955339d063c.js",
+      "path---lesson-six-b19ef208b955339d063c.js.map"
     ],
     "commons": [
       "commons-b2ba6c66e2a86ba19824.js",
@@ -55,8 +59,8 @@
       "build-js-styles.css.map"
     ],
     "path---pl-cnext-engineer": [
-      "path---pl-cnext-engineer-be24e7f321b7f274ae54.js",
-      "path---pl-cnext-engineer-be24e7f321b7f274ae54.js.map"
+      "path---pl-cnext-engineer-1f1fdcba00f2d4571d8f.js",
+      "path---pl-cnext-engineer-1f1fdcba00f2d4571d8f.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
@@ -71,9 +75,9 @@
       "component---src-pages-index-jsx-96f4f3d74d7f5d097e9a.js.map"
     ],
     "app": [
-      "app-dd48f5d09ec5197327db.js",
+      "app-796a3d5eeb6c921c69ee.js",
       "build-js-styles.css",
-      "app-dd48f5d09ec5197327db.js.map",
+      "app-796a3d5eeb6c921c69ee.js.map",
       "build-js-styles.css.map"
     ],
     "path---about": [
