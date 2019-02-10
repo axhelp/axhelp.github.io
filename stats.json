@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---pc-worx": [
-      "path---pc-worx-076cb5f86d60240904af.js",
-      "path---pc-worx-076cb5f86d60240904af.js.map"
+      "path---pc-worx-80cae4459e6e21970a6c.js",
+      "path---pc-worx-80cae4459e6e21970a6c.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
@@ -25,32 +25,36 @@
       "component---src-templates-lesson-jsx-701a886cc90fcc126cb8.js.map"
     ],
     "path---ib-il-ai-4-u-pac": [
-      "path---ib-il-ai-4-u-pac-3d8f50a1d1059a611035.js",
-      "path---ib-il-ai-4-u-pac-3d8f50a1d1059a611035.js.map"
+      "path---ib-il-ai-4-u-pac-0be1460a6bf2ccaabb29.js",
+      "path---ib-il-ai-4-u-pac-0be1460a6bf2ccaabb29.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js",
       "component---src-templates-category-jsx-79f394448ef5d1ff97f1.js.map"
     ],
     "path---ib-il-ai-4-i-pac": [
-      "path---ib-il-ai-4-i-pac-80fad8759a5e13ac7882.js",
-      "path---ib-il-ai-4-i-pac-80fad8759a5e13ac7882.js.map"
+      "path---ib-il-ai-4-i-pac-e502142a428c94cb709f.js",
+      "path---ib-il-ai-4-i-pac-e502142a428c94cb709f.js.map"
     ],
     "path---index": [
-      "path---index-7ff60488f3035cc71140.js",
-      "path---index-7ff60488f3035cc71140.js.map"
+      "path---index-1b08bc6911268140430c.js",
+      "path---index-1b08bc6911268140430c.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-7062667c93e2a6a15510.js",
       "component---src-pages-about-jsx-7062667c93e2a6a15510.js.map"
+    ],
+    "path---ib-il-ai-2-sf-pac": [
+      "path---ib-il-ai-2-sf-pac-bc2263d42f30a1e44f5d.js",
+      "path---ib-il-ai-2-sf-pac-bc2263d42f30a1e44f5d.js.map"
     ],
     "path---post-one": [
       "path---post-one-dad53c39885a0b412d9a.js",
       "path---post-one-dad53c39885a0b412d9a.js.map"
     ],
     "path---lesson-six": [
-      "path---lesson-six-22f0cfc72ddfc9e7da8d.js",
-      "path---lesson-six-22f0cfc72ddfc9e7da8d.js.map"
+      "path---lesson-six-03c019cca4a9ba92720b.js",
+      "path---lesson-six-03c019cca4a9ba92720b.js.map"
     ],
     "commons": [
       "commons-b2ba6c66e2a86ba19824.js",
@@ -59,8 +63,8 @@
       "build-js-styles.css.map"
     ],
     "path---pl-cnext-engineer": [
-      "path---pl-cnext-engineer-e9980b173a893aee2ad8.js",
-      "path---pl-cnext-engineer-e9980b173a893aee2ad8.js.map"
+      "path---pl-cnext-engineer-7e9f1d98f963024e281d.js",
+      "path---pl-cnext-engineer-7e9f1d98f963024e281d.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
@@ -75,14 +79,14 @@
       "component---src-pages-index-jsx-96f4f3d74d7f5d097e9a.js.map"
     ],
     "app": [
-      "app-6bd5434f6c9761c67c99.js",
+      "app-91b8c4662bcab858c063.js",
       "build-js-styles.css",
-      "app-6bd5434f6c9761c67c99.js.map",
+      "app-91b8c4662bcab858c063.js.map",
       "build-js-styles.css.map"
     ],
     "path---ib-il-ao-2-ui-pac": [
-      "path---ib-il-ao-2-ui-pac-edcad6ba1a27dc2dd492.js",
-      "path---ib-il-ao-2-ui-pac-edcad6ba1a27dc2dd492.js.map"
+      "path---ib-il-ao-2-ui-pac-c5d0f3c686955bc20a4e.js",
+      "path---ib-il-ao-2-ui-pac-c5d0f3c686955bc20a4e.js.map"
     ],
     "path---about": [
       "path---about-586c7e095e534a3909ec.js",
