@@ -51,7 +51,7 @@ LWORD **~AI64** и **~AO 64** содержат те же данные, что и
 
 Вход **bSelect** позволяет указать, какие каналы активны.
 
-![IB IL AI 4/U-PAC Process Data assignment](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/com.png?raw=true)
+![IB IL AI 4/U-PAC Communication](https://github.com/axhelp/examples-analog-technology/blob/master/images/IB-IL-AI-4-U/com.png?raw=true)
 
 ## Вывод значений и диагностика
 
